@@ -1,0 +1,50 @@
+{
+    "example": {
+        "idx": 30,
+        "AI_client": {
+            "intake_form": "Name:\nEric Weinstein\nAge:\n46\nGender:\nmale\nOccupation: Works on Wall Street\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified\n\n2. Presenting Problem\nI feel overwhelmed by living in New York City due to the high crime rate and the expensive cost of living, which makes me believe that I will never be able to enjoy myself or get ahead.\nThese feelings of being unable to enjoy life started when I moved to New York City for work.\nThe stress level was high when I first moved due to adjusting to a new environment and job.\nThe problem has worsened over time as I continue to focus on the negatives and limitations of living in the city.\nI experience these feelings daily, especially when trying to plan activities or social events.\nI have not actively tried to address these feelings and have mainly just accepted them as reality.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling as I realized that these negative beliefs about living in New York were impacting my ability to enjoy life and be present in the moment.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My job performance has been affected as my negative beliefs impact my motivation and focus at work.\nInterpersonal relationships: My negative outlook also affects my relationships with others, as I struggle to engage in social activities or outings.\nDaily life: My inability to enjoy living in New York impacts my daily activities and leisure pursuits.\n\n6. Social Support System\nI have some colleagues and friends I can rely on for support, but I have not discussed these specific feelings with them.",
+            "attitude": "positive",
+            "attitude_instruction": "Clients demonstrate a high level of engagement and cooperation with the therapeutic process. They should actively confirm their understanding of the counselor's instructions, ask for clarifications when needed, and willingly provide detailed information about their thoughts, feelings, and behaviors. These clients make reasonable requests for additional support or resources, and they extend the conversation by building on the counselor's suggestions with their own insights or experiences. They reformulate their thoughts in a constructive manner, reflecting on their progress and expressing a hopeful outlook towards the therapeutic outcomes. Overall, their demeanor is open, appreciative, and proactive in seeking improvement.",
+            "dialogue_history_init": "Counselor: Hi Eric, it's nice to meet you. What brings you to counseling today?\nClient: I've been feeling overwhelmed living here in New York City. The high crime rate and cost of living are really getting to me, and it's making it hard for me to enjoy life or feel like I'm getting ahead.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nEric Weinstein\nAge:\n46\nGender:\nmale\nOccupation: Works on Wall Street\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "I decided to seek counseling as I realized that these negative beliefs about living in New York were impacting my ability to enjoy life and be present in the moment.",
+                "dialogue_history_init": "咨询师: 嗨Eric，很高兴见到你。你今天来咨询有什么事情？\n来访者: 我在纽约市生活感到压力重重。高犯罪率和生活成本真的让我感到困扰，这使我很难享受生活或觉得我在进步。",
+                "init_history_counselor": "嗨Eric，很高兴见到你。你今天来咨询有什么事情？",
+                "init_history_client": "我在纽约市生活感到压力重重。高犯罪率和生活成本真的让我感到困扰，这使我很难享受生活或觉得我在进步。"
+            },
+            "Response": {
+                "client_information": "Name:\nEric Weinstein\nAge:\n46\nGender:\nmale\nOccupation: Works on Wall Street\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "I decided to seek counseling as I realized that these negative beliefs about living in New York were impacting my ability to enjoy life and be present in the moment.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Decatastrophizing"
+        ]
+    },
+    "cbt_technique": "CBT technique:Alternative Perspective",
+    "cbt_plan": "1. Explore and identify the negative beliefs and thoughts Eric has about living in New York, such as the high crime rate and cost of living.\n2. Challenge these beliefs by helping Eric see things from a different perspective. Encourage him to consider the positive aspects of living in New York, such as cultural diversity, career opportunities, and access to various activities.\n3. Use evidence-based questioning to help Eric critically evaluate his negative beliefs and replace them with more balanced and realistic thoughts.\n4. Work on decatastrophizing by helping Eric understand that not all aspects of living in New York are negative and that he has the ability to cope with challenges.\n5. Encourage Eric to engage in behavior experiments where he can test out his new perspective by trying out new activities or exploring different neighborhoods in New York.\n6. Provide Eric with problem-solving skills training to help him address specific challenges he may face in his daily life in New York.\n7. Monitor Eric's progress and make adjustments to the counseling plan as needed.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨Eric，很高兴见到你。你今天来咨询有什么事情？"
+        },
+        {
+            "role": "client",
+            "message": "我在纽约市生活感到压力重重。高犯罪率和生活成本真的让我感到困扰，这使我很难享受生活或觉得我在进步。"
+        },
+        {
+            "role": "counselor",
+            "message": "Eric, it's completely understandable that these concerns are weighing heavily on you. Let's work together to explore these negative beliefs and thoughts about living in New York. Have you ever considered looking at the city from a different perspective, focusing on the cultural diversity, career opportunities, and the wide range of activities available here?"
+        },
+        {
+            "role": "client",
+            "message": "I haven't really thought about it that way before. Maybe shifting my focus to the positive aspects of living in New York could help change my outlook. "
+        }
+    ]
+}

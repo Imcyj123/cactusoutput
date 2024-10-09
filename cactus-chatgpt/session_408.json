@@ -1,0 +1,105 @@
+{
+    "example": {
+        "AI_client": {
+            "intake_form": "Name:\nTyler Dalton\nAge:\n20\nGender:\nmale\nOccupation: Middle School Art Teacher\nEducation: Bachelor's Degree in Art Education\nMarital Status: Single\nFamily Details: No children, parents are living separately\n\n2. Presenting Problem\nI have developed a belief that losing at a pool game once means I will never play again, leading to feelings of defeat and disappointment. These feelings started recently after losing a pool game with friends.\nThe stress level was moderate when the problem first occurred, as I value my skills in playing pool.\nThe problem has progressed to the point where I avoid playing pool altogether, fearing further losses.\nI experience this pattern of thinking whenever I face a setback or failure.\nI have not tried anything specific to address this issue.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling as I recognized that my avoidance of playing pool was impacting my enjoyment of social activities and hobbies.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My performance as a teacher has not been affected by this issue.\nInterpersonal relationships: Avoiding social activities like playing pool has strained some of my friendships.\nDaily life: My avoidance behavior has affected my ability to engage in leisure activities.\n\n6. Social Support System\nI have a few close friends I can rely on for support but have not yet discussed this specific issue with them.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hello Tyler, I'm glad you could make it today. I’m here to help, and I’d like to start by understanding what brought you to seek counseling. Can you share a bit about what's been troubling you?\nClient: Yeah, I guess. It's kind of silly, but I’ve been avoiding playing pool since I lost a game with my friends. It really got to me, and now I just don’t want to play anymore.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nTyler Dalton\nAge:\n20\nGender:\nmale\nOccupation: Middle School Art Teacher\nEducation: Bachelor's Degree in Art Education\nMarital Status: Single\nFamily Details: No children, parents are living separately",
+                "reason_counseling": "I decided to seek counseling as I recognized that my avoidance of playing pool was impacting my enjoyment of social activities and hobbies.",
+                "dialogue_history_init": "Counselor: Hello Tyler, I'm glad you could make it today. I’m here to help, and I’d like to start by understanding what brought you to seek counseling. Can you share a bit about what's been troubling you?\nClient: Yeah, I guess. It's kind of silly, but I’ve been avoiding playing pool since I lost a game with my friends. It really got to me, and now I just don’t want to play anymore.",
+                "init_history_counselor": "Hello Tyler, I'm glad you could make it today. I’m here to help, and I’d like to start by understanding what brought you to seek counseling. Can you share a bit about what's been troubling you?",
+                "init_history_client": "I know it sounds trivial, but losing that game made me feel really defeated. It's like I can't handle losing, and now I'm just avoiding playing altogether because I don't want to feel that way again."
+            },
+            "Response": {
+                "client_information": "Name:\nTyler Dalton\nAge:\n20\nGender:\nmale\nOccupation: Middle School Art Teacher\nEducation: Bachelor's Degree in Art Education\nMarital Status: Single\nFamily Details: No children, parents are living separately",
+                "reason_counseling": "I decided to seek counseling as I recognized that my avoidance of playing pool was impacting my enjoyment of social activities and hobbies.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Alternative Perspective"
+        ]
+    },
+    "cbt_technique": "CBT technique:Behavior Experiment",
+    "cbt_plan": "1. Identify the thoughts and beliefs surrounding losing at pool that lead to feelings of defeat and avoidance.\n2. Challenge and reframe these thoughts through evidence-based questioning and alternative perspectives.\n3. Develop a behavior experiment where Tyler gradually exposes himself to playing pool in a controlled environment, starting with low-stress situations and gradually increasing the difficulty.\n4. Encourage Tyler to track his feelings, thoughts, and behaviors during these experiments to identify any patterns or changes.\n5. Use the data from the behavior experiments to reinforce positive outcomes and challenge any negative beliefs or patterns.\n6. Work on developing problem-solving skills and coping strategies for handling defeat and loss in a healthier way.\n7. Gradually increase exposure and practice with playing pool, incorporating relaxation techniques and positive self-talk to manage any negative emotions that may arise.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "Hello Tyler, I'm glad you could make it today. I’m here to help, and I’d like to start by understanding what brought you to seek counseling. Can you share a bit about what's been troubling you?"
+        },
+        {
+            "role": "client",
+            "message": "I know it sounds trivial, but losing that game made me feel really defeated. It's like I can't handle losing, and now I'm just avoiding playing altogether because I don't want to feel that way again."
+        },
+        {
+            "role": "counselor",
+            "message": "Thank you for sharing that, Tyler. It's important to acknowledge that your feelings are valid, and it's okay to feel defeated at times. Let's work together to explore those thoughts and beliefs surrounding losing at pool that lead to these feelings of defeat. Would you be open to challenging and reframing these thoughts with me?"
+        },
+        {
+            "role": "client",
+            "message": "I guess I could try to challenge those thoughts, but it's hard to see things differently when I feel so discouraged."
+        },
+        {
+            "role": "counselor",
+            "message": "I completely understand, Tyler. It's natural to feel discouraged when faced with defeat, but remember that these thoughts are just one perspective. Let's work on uncovering alternative perspectives and evidence-based questioning to challenge those negative beliefs. Together, we can help you develop a healthier mindset when it comes to handling defeat. Would you be willing to give it a try?"
+        },
+        {
+            "role": "client",
+            "message": "I'll give it a shot, but I can't promise it will be easy."
+        },
+        {
+            "role": "counselor",
+            "message": "That's completely understandable, Tyler. Change can be challenging, but I'll be here to support you every step of the way. Let's start by gradually exposing yourself to playing pool in a controlled environment, starting with low-stress situations. Remember to track your feelings, thoughts, and behaviors during these experiments so we can identify any patterns or changes. With time and practice, I believe you can develop the skills and strategies needed to handle defeat in a healthier way. How does that sound to you?"
+        },
+        {
+            "role": "client",
+            "message": "I appreciate your support in this process. It's reassuring to know that I have someone guiding me through this journey of challenging my negative beliefs and thoughts."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm here to support you, Tyler. Remember, this is a process, and it's okay to take it one step at a time. Let's focus on building your resilience and problem-solving skills together. I believe in your ability to overcome this challenge and enjoy playing pool once again. Let's continue working on this together in our future sessions."
+        },
+        {
+            "role": "client",
+            "message": "I'm grateful for your guidance and belief in me. It gives me hope that I can overcome this challenge and enjoy playing pool once more."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you're feeling hopeful, Tyler. Remember, progress takes time, and it's important to be patient with yourself throughout this journey. Let's continue to work on challenging those negative beliefs and building your confidence. I look forward to seeing your growth and progress in our future sessions. Keep up the great work!"
+        },
+        {
+            "role": "client",
+            "message": "I'll do my best to stay committed to this process, even when it gets tough."
+        },
+        {
+            "role": "counselor",
+            "message": "That's the spirit, Tyler! Remember, it's okay to have setbacks along the way. The important thing is that you're putting in the effort and staying committed to your growth. I'm here to support you through the tough times and celebrate your successes with you. Let's continue working together to help you overcome this challenge and find joy in playing pool once again. You're on the right path, and I believe in your ability to succeed."
+        },
+        {
+            "role": "client",
+            "message": "I'm learning to embrace the setbacks as part of the process, even though it can be challenging at times."
+        },
+        {
+            "role": "counselor",
+            "message": "That's a great mindset to have, Tyler. Embracing setbacks as part of the process is a valuable skill to have, and it shows your commitment to your growth and well-being. Remember, I'm here to help you navigate through those challenges and celebrate your progress along the way. Keep up the excellent work, and don't hesitate to reach out if you need any support or guidance. You're on the right track, and I have no doubt that you can overcome this obstacle."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to see that setbacks are not the end but a part of the journey towards growth and improvement."
+        },
+        {
+            "role": "counselor",
+            "message": "Exactly, Tyler. Setbacks are just bumps in the road that can help you learn and grow. It's all part of the process of becoming stronger and more resilient. Keep that positive mindset as you continue to work on challenging those negative beliefs and building your confidence. I'm proud of the progress you've made so far, and I'm confident that you will overcome this obstacle and find joy in playing pool once again. Keep moving forward, and remember that I'm here to support you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to see that setbacks are not the end but a part of the journey towards growth and improvement. "
+        }
+    ]
+}

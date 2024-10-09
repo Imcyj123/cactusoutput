@@ -1,0 +1,59 @@
+{
+    "example": {
+        "idx": 96,
+        "AI_client": {
+            "intake_form": "Name:\nSamantha Miller\nAge:\n39\nGender:\nfemale\nOccupation: Veterinarian\nEducation: Doctor of Veterinary Medicine\nMarital Status: Single\nFamily Details: Lives with two nephews, brother in the army\n\n2. Presenting Problem\nI feel like my entire week is ruined if I don't get to go running, which causes a lot of stress and anxiety in my daily life.\nThese feelings started around a year ago when I began using running as my main coping mechanism.\nThe stress levels have been high, especially on days when I can't go for a run due to work or weather conditions.\nThe problem has escalated, affecting my mood and productivity when I miss a run.\nI experience these feelings multiple times a week, especially when external factors prevent me from running.\nI have tried to manage my anxiety using breathing exercises and mindfulness techniques, but the impact is temporary.\n\n3. Reason for Seeking Counseling\nI noticed that this pattern of thinking and the impact it has on my daily life needed to be addressed for my overall well-being, leading me to seek counseling.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological issues previously.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My job performance has been inconsistent due to the impact of missing runs on my mood.\nInterpersonal relationships: My relationships with my nephews have been affected by my stress levels after missing a run.\nDaily life: My anxiety about missing a run has disrupted my sleep patterns and eating habits.\n\n6. Social Support System\nI have close friends I can talk to, but I haven't discussed the extent of my anxiety with them.",
+            "attitude": "positive",
+            "attitude_instruction": "Clients demonstrate a high level of engagement and cooperation with the therapeutic process. They should actively confirm their understanding of the counselor's instructions, ask for clarifications when needed, and willingly provide detailed information about their thoughts, feelings, and behaviors. These clients make reasonable requests for additional support or resources, and they extend the conversation by building on the counselor's suggestions with their own insights or experiences. They reformulate their thoughts in a constructive manner, reflecting on their progress and expressing a hopeful outlook towards the therapeutic outcomes. Overall, their demeanor is open, appreciative, and proactive in seeking improvement.",
+            "dialogue_history_init": "Counselor: Hi Samantha, I’m glad you’re here today. How can I help you?\nClient: I've been feeling quite anxious and stressed lately, particularly when I can't go running. It seems to ruin my entire week if I miss just one run, and it's starting to really affect my daily life.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nSamantha Miller\nAge:\n39\nGender:\nfemale\nOccupation: Veterinarian\nEducation: Doctor of Veterinary Medicine\nMarital Status: Single\nFamily Details: Lives with two nephews, brother in the army",
+                "reason_counseling": "I noticed that this pattern of thinking and the impact it has on my daily life needed to be addressed for my overall well-being, leading me to seek counseling.",
+                "dialogue_history_init": "咨询师: 嗨，莎曼珂，我很高兴你今天来了。我可以帮你什么？\n来访者: 最近我感觉很焦虑和有压力，特别是当我无法去跑步时。如果错过了一次跑步，似乎会毁了整个星期，这开始严重影响我的日常生活。",
+                "init_history_counselor": "嗨，莎曼珂，我很高兴你今天来了。我可以帮你什么？",
+                "init_history_client": "最近我感觉很焦虑和有压力，特别是当我无法去跑步时。如果错过了一次跑步，似乎会毁了整个星期，这开始严重影响我的日常生活。"
+            },
+            "Response": {
+                "client_information": "Name:\nSamantha Miller\nAge:\n39\nGender:\nfemale\nOccupation: Veterinarian\nEducation: Doctor of Veterinary Medicine\nMarital Status: Single\nFamily Details: Lives with two nephews, brother in the army",
+                "reason_counseling": "I noticed that this pattern of thinking and the impact it has on my daily life needed to be addressed for my overall well-being, leading me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Alternative Perspective",
+            "Pros and Cons Analysis"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In our sessions, we will work on challenging and changing the catastrophic thoughts you have when you miss a run. We will practice identifying and disputing these thoughts by examining evidence for and against them. We will also explore alternative perspectives and ways to cope with the anxiety and stress that arise from missing a run. Through this process, we aim to help you develop a more balanced and realistic view of the situation, reducing the impact it has on your daily life.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨，莎曼珂，我很高兴你今天来了。我可以帮你什么？"
+        },
+        {
+            "role": "client",
+            "message": "最近我感觉很焦虑和有压力，特别是当我无法去跑步时。如果错过了一次跑步，似乎会毁了整个星期，这开始严重影响我的日常生活。"
+        },
+        {
+            "role": "counselor",
+            "message": "感谢你与我分享这些感受，莎曼珂。在我们的会话中，我们将一起探讨这种灾难性的想法是如何影响你的日常生活的，并尝试挑战和改变这种思维模式。我们会一起看看这些想法的证据，然后质疑它们。我们还会探讨一些替代的角度和方法来应对你因为错过跑步而产生的焦虑和压力。我相信通过这个过程，你会逐渐发展出更加平衡和现实的观点，减少它对你日常生活的影响。让我们一起努力吧。"
+        },
+        {
+            "role": "client",
+            "message": "我真的希望能够找到一种更健康的方式来处理这种情况，因为我不想再让跑步成为我生活中如此重要的一部分。"
+        },
+        {
+            "role": "counselor",
+            "message": "非常理解你的想法，莎曼珂。逐步改变这种思维模式可能需要一些时间和努力，但我相信你能够做到。在我们的下一次会话中，我们可以开始尝试一些具体的方法来帮助你更好地处理这种情况。同时，也让我们一起探索一些其他的兴趣爱好和放松方式，让你的生活更加多样化和丰富。你觉得怎么样？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得这个计划听起来很有希望，我会努力跟上并尝试改变我的思维模式。同时，也很期待尝试一些新的兴趣爱好来丰富我的生活。"
+        }
+    ]
+}

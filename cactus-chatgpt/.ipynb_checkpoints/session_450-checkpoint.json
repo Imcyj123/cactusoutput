@@ -1,0 +1,113 @@
+{
+    "example": {
+        "AI_client": {
+            "intake_form": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA\n\n2. Presenting Problem\nI have recently started feeling like being good at science makes me a geek and that I am perceived as anti-social because of it.\nThese feelings started when I began high school, particularly in the past few months.\nI believe the cause of these thoughts is the stereotypes associated with being good at science.\nThe problem has progressed as I have been avoiding social situations to not be labeled as a geek.\nI experience these thoughts mainly at school, especially in science-related classes or discussions.\nI have tried to engage in more social activities to counter these thoughts but have found it challenging.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological issues.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My academic performance in science is excellent, but my social interactions have been affected by these thoughts.\nInterpersonal relationships: I have started avoiding social interactions with classmates and friends.\nDaily life: My thoughts about being labeled as a geek have caused me to isolate myself and affected my self-esteem.\n\n6. Social Support System\nI have parents and a sibling whom I can talk to, but they may not fully understand the intensity of my concerns surrounding these thoughts.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hello, Nick. I'm glad you're here today. How are you feeling?\nClient: Not great, to be honest. I've been struggling a lot lately.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA",
+                "reason_counseling": "I decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.",
+                "dialogue_history_init": "Counselor: Hello, Nick. I'm glad you're here today. How are you feeling?\nClient: Not great, to be honest. I've been struggling a lot lately.",
+                "init_history_counselor": "Hello, Nick. I'm glad you're here today. How are you feeling?",
+                "init_history_client": "I've been feeling really isolated and it's hard to shake off this label of being a \"geek\" just because I'm good at science. It's like no matter what I do, that's all people see."
+            },
+            "Response": {
+                "client_information": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA",
+                "reason_counseling": "I decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Alternative Perspective",
+    "cbt_plan": "In order to address Nick's feelings of isolation and self-esteem issues related to being labeled as a \"geek,\" we will use the Alternative Perspective technique. This involves challenging and changing negative thought patterns by exploring different ways of viewing situations. During counseling sessions, we will work on identifying and challenging Nick's automatic negative thoughts related to being seen as a \"geek.\" We will explore the possibility of viewing his interest in science as a positive attribute rather than a negative label. Through this technique, Nick will learn to reframe his thoughts and develop a more balanced and positive perspective on his identity. Additionally, we will work on building his self-esteem by focusing on his strengths and accomplishments outside of his academic interests.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "Hello, Nick. I'm glad you're here today. How are you feeling?"
+        },
+        {
+            "role": "client",
+            "message": "I've been feeling really isolated and it's hard to shake off this label of being a \"geek\" just because I'm good at science. It's like no matter what I do, that's all people see."
+        },
+        {
+            "role": "counselor",
+            "message": "I understand how challenging that must be for you, Nick. It sounds like you're feeling stuck in a negative cycle of labeling and self-perception. During our sessions, we can work on challenging those automatic negative thoughts and exploring different perspectives on your interests in science. It's important to remember that your passion for science is a positive attribute that sets you apart and should be celebrated. Let's work together to reframe those thoughts and focus on your strengths and accomplishments outside of academics. How does that sound to you?"
+        },
+        {
+            "role": "client",
+            "message": "It's just hard to see it that way when it feels like everyone around me sees science as something that makes me an outcast. But I'll try to keep an open mind."
+        },
+        {
+            "role": "counselor",
+            "message": "I understand that it can be difficult when it feels like others are not recognizing the positive aspects of your interests. It's important to remember that your passion for science is a unique part of who you are, and it's okay to embrace it. Let's continue to explore different perspectives and work on reframing those negative thoughts. Remember, it's all about finding a balance and focusing on your strengths. I'm here to support you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "I appreciate your support in helping me reframe these negative thoughts. It's reassuring to know that I have someone to guide me through this process."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you feel supported in this process, Nick. Remember, change takes time and effort, but I believe that with dedication and a positive mindset, you can overcome these challenges. Let's continue to work together to build your self-esteem and perspective on your interests. You're not alone in this journey."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to see a glimmer of hope that maybe I can change how I view myself and my interests."
+        },
+        {
+            "role": "counselor",
+            "message": "That's great to hear, Nick. It's important to hold onto that glimmer of hope and continue to challenge those negative thoughts. Remember, progress is not always linear, but every step forward is a step in the right direction. I'm here to support you every step of the way as we work on reframing your perspective and building your self-esteem. Keep up the hard work, and we will get through this together."
+        },
+        {
+            "role": "client",
+            "message": "I'm grateful for your guidance and encouragement as we work on reframing my perspective and building my self-esteem. It gives me hope for positive change in the future."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you're feeling hopeful for positive change, Nick. Remember, you have the strength and resilience to overcome these challenges. Let's continue to work together to build on that hope and create a more positive outlook on your interests and self-esteem. You're making great progress, and I believe in your ability to make the changes you desire. Keep up the good work, and we'll navigate this journey together."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to feel more confident in my ability to challenge these negative thoughts and change how I view myself."
+        },
+        {
+            "role": "counselor",
+            "message": "It's wonderful to hear that you're feeling more confident in challenging those negative thoughts, Nick. Your progress is truly inspiring, and it's a testament to your strength and resilience. Remember, you have the power to shape your own narrative and create a positive self-perception. Let's continue to build on this confidence and work towards a more balanced and positive perspective. I'm here to support you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "I'm beginning to see the value in embracing my passion for science as a unique aspect of who I am, despite the challenges it brings."
+        },
+        {
+            "role": "counselor",
+            "message": "That's a fantastic realization, Nick. Embracing your passion for science as a unique part of your identity is a significant step towards building a positive self-perception. It's important to recognize and celebrate the aspects of yourself that make you stand out, even if it means facing challenges along the way. I'm proud of the progress you're making and your willingness to explore different perspectives. Keep focusing on your strengths and accomplishments, and continue to cultivate a positive outlook on your interests. You're on the right path to personal growth and self-acceptance."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to feel more comfortable with the idea of embracing my passion for science as a part of who I am, even if it comes with challenges."
+        },
+        {
+            "role": "counselor",
+            "message": "That's a significant step forward, Nick. Embracing your passion for science as a part of your identity is a positive shift that can lead to greater self-acceptance and confidence. It's important to remember that your interests make you unique and should be celebrated. As you continue on this journey of self-discovery and growth, keep focusing on the positive aspects of your passion for science and how it contributes to your identity. I'm here to support you as you navigate this process of self-acceptance and personal growth. You're making great progress, and I believe in your ability to continue moving forward in a positive direction."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to feel more at ease with the idea of embracing my passion for science as a part of who I am, even if it comes with challenges."
+        },
+        {
+            "role": "counselor",
+            "message": "It's wonderful to hear that you're feeling more at ease with embracing your passion for science, Nick. Accepting and celebrating this part of your identity is a major step towards building a positive self-perception. Remember, your interests make you unique and should be valued. As you continue to explore and appreciate this aspect of yourself, focus on the positive impact it has on your life and how it contributes to your growth. I'm here to support you as you journey towards self-acceptance and personal development. Keep up the great work, and remember that you are on the right path to a more positive and fulfilling outlook on life."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to feel more comfortable with the idea of embracing my passion for science as a part of who I am, even if it comes with challenges. "
+        }
+    ]
+}

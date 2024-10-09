@@ -1,0 +1,52 @@
+{
+    "example": {
+        "idx": 141,
+        "AI_client": {
+            "intake_form": "Name:\nHunter Hughes\nAge:\n24\nGender:\nmale\nOccupation: Works in a publishing building\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Enjoys cooking for family and friends\n\n2. Presenting Problem\nI am struggling with ongoing feelings of love towards my ex-boyfriend, and I believe I will never find someone I love as much as him.\nThese feelings started after the breakup with my ex-boyfriend a year ago.\nThe stress level at the beginning of the issue was high due to the emotional turmoil of the breakup.\nOver time, these feelings have intensified, especially when I see happy couples or engage in romantic activities.\nI experience these feelings regularly, especially when I reminisce about the past with my ex-boyfriend.\nI have tried distracting myself with work and social activities, but the feelings persist.\n\n3. Reason for Seeking Counseling\nThe persistent feelings for my ex-boyfriend are affecting my daily life and making it difficult for me to move on, prompting me to seek counseling.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My performance at work has been slightly affected by my emotional distress.\nInterpersonal relationships: My relationships with friends and family have been strained due to my preoccupation with thoughts of my ex-boyfriend.\nDaily life: My emotional distress has impacted my daily activities and sleep routine.\n\n6. Social Support System\nI have a strong support system with family and friends who are willing to listen, but I find it challenging to open up about my feelings for my ex-boyfriend.",
+            "attitude": "positive",
+            "attitude_instruction": "Clients demonstrate a high level of engagement and cooperation with the therapeutic process. They should actively confirm their understanding of the counselor's instructions, ask for clarifications when needed, and willingly provide detailed information about their thoughts, feelings, and behaviors. These clients make reasonable requests for additional support or resources, and they extend the conversation by building on the counselor's suggestions with their own insights or experiences. They reformulate their thoughts in a constructive manner, reflecting on their progress and expressing a hopeful outlook towards the therapeutic outcomes. Overall, their demeanor is open, appreciative, and proactive in seeking improvement.",
+            "dialogue_history_init": "Counselor: Hi Hunter, it's nice to meet you. How can I help you today?\nClient: I feel like these feelings are really holding me back. Even when I try to enjoy activities or spend time with friends, thoughts of my ex-boyfriend keep coming up and it makes me feel stuck. I want to find a way to move forward and be happy again.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nHunter Hughes\nAge:\n24\nGender:\nmale\nOccupation: Works in a publishing building\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Enjoys cooking for family and friends",
+                "reason_counseling": "The persistent feelings for my ex-boyfriend are affecting my daily life and making it difficult for me to move on, prompting me to seek counseling.",
+                "dialogue_history_init": "咨询师: 嗨，亨特，很高兴认识你。今天有什么我可以帮忙的吗？\n来访者: 我觉得这些情绪真的在拖慢我的步伐。即使我尝试享受活动或和朋友相处，我前男友的想法总是不断涌现，让我感到困扰。我想找到一种方法，重新前进，再次快乐起来。",
+                "init_history_counselor": "嗨，亨特，很高兴认识你。今天有什么我可以帮忙的吗？",
+                "init_history_client": "我觉得这些情绪真的在拖慢我的步伐。即使我尝试享受活动或和朋友相处，我前男友的想法总是不断涌现，让我感到困扰。我想找到一种方法，重新前进，再次快乐起来。"
+            },
+            "Response": {
+                "client_information": "Name:\nHunter Hughes\nAge:\n24\nGender:\nmale\nOccupation: Works in a publishing building\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Enjoys cooking for family and friends",
+                "reason_counseling": "The persistent feelings for my ex-boyfriend are affecting my daily life and making it difficult for me to move on, prompting me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Behavior Experiment",
+            "Reality Testing",
+            "Alternative Perspective"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In our sessions, we will work on identifying and challenging any catastrophic thoughts or beliefs you may have about your ex-boyfriend and the breakup. We will explore evidence that supports and contradicts these thoughts, helping you gain a more balanced and realistic perspective. Through this process, we will aim to reduce the intensity of the emotions you feel towards your ex-boyfriend and develop coping strategies to move forward in a more positive way. Additionally, we will work on finding distractions and engaging in activities that bring you joy and fulfillment, helping you to focus on the present moment and build a more fulfilling life without being constantly consumed by thoughts of your ex-boyfriend.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨，亨特，很高兴认识你。今天有什么我可以帮忙的吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得这些情绪真的在拖慢我的步伐。即使我尝试享受活动或和朋友相处，我前男友的想法总是不断涌现，让我感到困扰。我想找到一种方法，重新前进，再次快乐起来。"
+        },
+        {
+            "role": "counselor",
+            "message": "我完全理解你的感受，亨特。我们会一起努力，来探索并挑战那些可能存在的对前男友和分手的灾难性想法或信念。我们将一起查看那些支持和反驳这些想法的证据，帮助你获得更加平衡和现实的观点。通过这个过程，我们的目标是减轻你对前男友的情感强度，同时发展一些应对策略，让你以更积极的方式继续前进。此外，我们还会一起寻找分散注意力的方法，参与让你感到快乐和满足的活动，帮助你专注于当下，建立一个更充实的生活，不再被前男友的想法所困扰。我们一起努力，你并不孤单。"
+        },
+        {
+            "role": "client",
+            "message": "我真的希望能够摆脱这种困扰，重新找回自己的快乐。感谢你的支持和帮助，我会努力跟随你的建议，尝试改变我的想法和行为。"
+        }
+    ]
+}

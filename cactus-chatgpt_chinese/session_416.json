@@ -1,0 +1,162 @@
+{
+    "example": {
+        "idx": 415,
+        "AI_client": {
+            "intake_form": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified\n\n2. Presenting Problem\nI struggle with feelings of incompetence and self-criticism, particularly related to my cooking abilities.\nThese feelings started a few months ago when I burnt a spaghetti sauce for dinner.\nI believe the stress of managing household responsibilities led to this problem.\nOver time, I have become more critical of my cooking skills, seeing any mistake as a sign of failure.\nI experience these feelings whenever I cook or make a mistake in the kitchen.\nI have attempted to improve my cooking skills through online tutorials and cookbooks.\n\n3. Reason for Seeking Counseling\nThe incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems previously.\nThere are no significant physical illnesses to note.\n\n5. Academic/occupational functioning level: N/A\nInterpersonal relationships: N/A\nDaily life: My self-criticism has affected my enjoyment of activities like cooking.\nSocial Support System: I have a few friends and family members I can talk to, but I have not discussed my feelings of incompetence in cooking with them.",
+            "attitude": "neutral",
+            "attitude_instruction": "Clients display a mix of both positive and negative characteristics. They might show compliance and willingness to follow instructions at times, but also exhibit moments of defensiveness or skepticism. These clients may provide useful information and participate actively in some discussions, while in other instances, they might shift topics or show disconnection. Their feedback can vary, with periods of constructive engagement interspersed with sarcastic remarks or expressions of self-doubt. This blend of reactions indicates a fluctuating commitment to therapy, with the client balancing between optimism for change and resistance to the therapeutic process.",
+            "dialogue_history_init": "Counselor: Hi Blake, it's nice to meet you. How are you feeling today?\nClient: I'm feeling a bit anxious, but I'm glad to be here.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "The incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.",
+                "dialogue_history_init": "咨询师: 你好，布雷克，很高兴认识你。你今天感觉怎么样？\n来访者: 我感到有点焦虑，但我很高兴能在这里。",
+                "init_history_counselor": "你好，布雷克，很高兴认识你。你今天感觉怎么样？",
+                "init_history_client": "我感到有点焦虑，但我很高兴能在这里。"
+            },
+            "Response": {
+                "client_information": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "The incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In our sessions, we will work on challenging and changing the negative thoughts and catastrophic beliefs you have about your cooking abilities. We will identify the irrational thoughts that contribute to your anxiety and low confidence when cooking, and then we will work on replacing them with more realistic and positive thoughts. Through this process of decatastrophizing, you will learn to approach cooking with a more balanced and constructive mindset, ultimately improving your confidence and enjoyment in the kitchen. We will also work on developing coping strategies for when negative thoughts arise, such as mindfulness techniques or positive affirmations.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "你好，布雷克，很高兴认识你。你今天感觉怎么样？"
+        },
+        {
+            "role": "client",
+            "message": "我感到有点焦虑，但我很高兴能在这里。"
+        },
+        {
+            "role": "counselor",
+            "message": "我很高兴你决定来这里。你在烹饪方面的自我批评是一个很好的起点，我们可以一起解决这个问题。你提到烧掉意大利面酱的事件让你意识到自我批评影响了你的信心和厨艺乐趣。我们将一起努力挑战和改变你关于自己烹饪能力的消极想法和灾难性信念。通过识别那些导致你焦虑和自信不足的不合理想法，我们将努力替换它们为更现实和积极的想法。这个过程将让你学会用更平衡和建设性的心态来面对烹饪，最终提高你在厨房的信心和乐趣。我们还会一起发展应对负面想法的策略，比如正念技巧或积极肯定。你对这个计划有什么想法？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得这个计划听起来很有希望，我愿意努力跟着您一起挑战我的消极想法。"
+        },
+        {
+            "role": "counselor",
+            "message": "非常好，布雷克。我很高兴听到你对这个计划感到乐观。我们将一起努力，逐步改变你的思维模式，让你更自信地面对烹饪。在接下来的会话中，我们会深入探讨你的想法，并找到更积极的替代方案。你准备好开始这个挑战了吗？"
+        },
+        {
+            "role": "client",
+            "message": "是的，我准备好开始这个挑战了。我希望能够逐渐摆脱那些消极的想法，重新获得对烹饪的信心和乐趣。"
+        },
+        {
+            "role": "counselor",
+            "message": "很好，布雷克。我相信你一定能够做到。我们会一步步地解决你的自我批评问题，让你重新发现烹饪的乐趣和自信。如果在这个过程中有任何困难或挑战，记得随时和我分享。我们是一个团队，一起努力。现在，我们可以开始探讨你最近的烹饪经历，看看是否有什么特别触发了你的自我批评。"
+        },
+        {
+            "role": "client",
+            "message": "最近我尝试做了一道新菜谱，但结果并不理想。我觉得自己完全没有进步，这让我更加怀疑自己的厨艺能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "这听起来确实让你感到挫败和失望。但是，我想提醒你，每个人都会遇到失败和挑战，这并不意味着你的厨艺能力就不好。我们可以一起来看看这次经历中可能出现了哪些消极想法，然后尝试找到更加积极的方式来看待这个问题。你可能会发现，通过改变你的思维模式，你可以更好地应对类似的挑战。你觉得这个方法能帮助你吗？"
+        },
+        {
+            "role": "client",
+            "message": "我相信这种方法可以帮助我更好地看待失败和挑战，我愿意尝试改变我的思维模式来克服厨艺上的困难。"
+        },
+        {
+            "role": "counselor",
+            "message": "非常好，布雷克。你的积极态度和愿意尝试改变的决心是非常重要的。我们将一起逐步探索并改变你的消极想法，让你重新获得对烹饪的信心和乐趣。记得，这是一个过程，会有挑战和困难，但我们会一起面对并克服它们。我期待看到你在烹饪方面的进步和成长。接下来，我们可以继续讨论你的烹饪经历，看看还有哪些方面需要我们一起探讨和改进。你有什么想分享的吗？"
+        },
+        {
+            "role": "client",
+            "message": "我最近尝试了一道新的烹饪技巧，但最终结果并不理想。这让我感到更加挫败和怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "这次经历似乎让你感到受挫和怀疑自己的能力，但请记住，每次尝试都是一个学习机会，即使结果并不完美。我们可以一起来探讨你在这次烹饪过程中所遇到的困难和挑战，并寻找可能的解决方案。通过这个过程，你将学会更加坚韧和自信地面对类似的情况。你愿意和我分享更多关于这次烹饪经历的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "当我尝试新的烹饪技巧时，我感到自己的能力受到挑战，这让我更加怀疑自己。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种感受是很正常的，尤其是在面对新的挑战时。但是，挑战和失败并不代表你的能力有问题，而是一个学习和成长的机会。我们可以一起来探讨你在这次尝试中遇到的困难，然后找出改进的方式和解决方案。通过这个过程，你将会逐渐建立起更强大的自信和坚韧性。你可以分享一些具体的情况或细节，让我们一起来分析吗？"
+        },
+        {
+            "role": "client",
+            "message": "当我尝试新的烹饪技巧时，我感到自己的能力受到挑战，这让我更加怀疑自己。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种挑战和怀疑是很正常的，特别是在面对新的技巧时。但是，记住每次尝试都是一个学习的过程，即使结果并不如意。我们可以一起探讨你在这次尝试中遇到的具体困难，然后想想如何改进和解决这些问题。通过这个过程，你将会逐渐建立起更强大的自信和坚韧性。你可以分享更多关于这次烹饪经历的细节，让我们一起来分析吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得每次尝试新的技巧都是一个挑战，我很难接受失败，这让我更加怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "感谢你分享这些感受，布雷克。接受失败并不容易，但是挑战和失败是成长的必经之路。在我们的会话中，我们将尝试一起探讨你在面对失败时的反应，并找到更积极的方式来看待这些挑战。通过逐步改变你的思维模式，你将会逐渐建立起更强大的自信和应对困难的能力。我相信你可以克服这些困难，重新获得对烹饪的信心和乐趣。接下来，我们可以一起来探讨你在面对失败时的情绪反应，看看是否有什么触发了你的自我怀疑。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得每次尝试新的技巧都是一个挑战，我很难接受失败，这让我更加怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "我理解你对失败的反应可能会让你感到挫败和怀疑自己的能力。在我们的会话中，我们会一起探讨你对失败的看法，并找到更积极的方式来面对挑战。逐步改变你的思维模式将帮助你建立更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续讨论你在面对失败时的情绪反应，看看是否有什么特别触发了你的自我怀疑。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得每次尝试新的技巧都是一个挑战，我很难接受失败，这让我更加怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种感受是很正常的，尤其是在面对挑战和失败时。但是，挑战和失败并不代表你的能力有问题，而是一个学习和成长的机会。在我们的会话中，我们将一起探讨你对失败的反应，并尝试找到更积极的方式来面对这些挑战。通过逐步改变你的思维模式，你将会逐渐建立起更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续探讨你在面对失败时的情绪反应，看看是否有什么特别触发了你的自我怀疑。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得每次尝试新的技巧都是一个挑战，我很难接受失败，这让我更加怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "感谢你的诚实分享，布雷克。接受失败并不容易，但是挑战和失败是成长的必经之路。在我们的会话中，我们将一起探讨你对失败的反应，并找到更积极的方式来面对这些挑战。通过逐步改变你的思维模式，你将会逐渐建立起更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续探讨你在面对失败时的情绪反应，看看是否有什么特别触发了你的自我怀疑。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我尝试接受失败并从中学习，但仍然很难摆脱对自己能力的怀疑。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种尝试接受失败并从中学习的态度是非常重要的，布雷克。但是，摆脱对自己能力的怀疑可能需要更多的时间和努力。在我们的会话中，我们将继续探讨你对自己能力的怀疑，并尝试找到更积极的方式来面对这些挑战。逐步改变你的思维模式将帮助你建立更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续深入探讨你对自己能力的怀疑，看看是否有什么特别触发了这种情绪。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我尝试接受失败并从中学习，但仍然很难摆脱对自己能力的怀疑。"
+        },
+        {
+            "role": "counselor",
+            "message": "我很欣赏你对失败的接受和学习态度，这是一个非常积极的心态。摆脱对自己能力的怀疑可能需要更多的时间和努力，但重要的是你愿意尝试改变。在我们的会话中，我们将继续探讨你对自己能力的怀疑，并尝试找到更积极的方式来面对这些挑战。逐步改变你的思维模式将帮助你建立更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续深入探讨你对自己能力的怀疑，看看是否有什么特别触发了这种情绪。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得每次尝试新的技巧都是一个挑战，我很难接受失败，这让我更加怀疑自己的能力。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种感受是很正常的，尤其是在面对挑战和失败时。但是，挑战和失败并不代表你的能力有问题，而是一个学习和成长的机会。在我们的会话中，我们将一起探讨你对失败的反应，并尝试找到更积极的方式来面对这些挑战。通过逐步改变你的思维模式，你将会逐渐建立起更强大的自信和应对困难的能力。我相信你有能力克服这些困难，重新获得对烹饪的信心和乐趣。现在，我们可以继续深入探讨你对自己能力的怀疑，看看是否有什么特别触发了这种情绪。你愿意分享更多关于这方面的细节吗？"
+        },
+        {
+            "role": "client",
+            "message": "我希望能够逐渐摆脱那些消极的想法，重新获得对烹饪的信心和乐趣。"
+        }
+    ]
+}

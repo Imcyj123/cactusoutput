@@ -1,0 +1,74 @@
+{
+    "example": {
+        "idx": 416,
+        "AI_client": {
+            "intake_form": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified\n\n2. Presenting Problem\nI struggle with feelings of incompetence and self-criticism, particularly related to my cooking abilities.\nThese feelings started a few months ago when I burnt a spaghetti sauce for dinner.\nI believe the stress of managing household responsibilities led to this problem.\nOver time, I have become more critical of my cooking skills, seeing any mistake as a sign of failure.\nI experience these feelings whenever I cook or make a mistake in the kitchen.\nI have attempted to improve my cooking skills through online tutorials and cookbooks.\n\n3. Reason for Seeking Counseling\nThe incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems previously.\nThere are no significant physical illnesses to note.\n\n5. Academic/occupational functioning level: N/A\nInterpersonal relationships: N/A\nDaily life: My self-criticism has affected my enjoyment of activities like cooking.\nSocial Support System: I have a few friends and family members I can talk to, but I have not discussed my feelings of incompetence in cooking with them.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hi Blake, it's nice to meet you. How are you feeling today?\nClient: It's the kitchen that really gets to me. Every time I try to cook, I just can't shake off the feeling that I'm going to mess up.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "The incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.",
+                "dialogue_history_init": "咨询师: 嗨，布莱克，很高兴见到你。你今天感觉怎么样？\n来访者: 真正让我困扰的是厨房。每次我尝试做饭时，我就无法摆脱我会搞砸的感觉。",
+                "init_history_counselor": "嗨，布莱克，很高兴见到你。你今天感觉怎么样？",
+                "init_history_client": "真正让我困扰的是厨房。每次我尝试做饭时，我就无法摆脱我会搞砸的感觉。"
+            },
+            "Response": {
+                "client_information": "Name:\nBlake Sullivan\nAge:\n23\nGender:\nmale\nOccupation: Stay at home mom\nEducation: Not specified\nMarital Status: Not specified\nFamily Details: Not specified",
+                "reason_counseling": "The incident with the burnt spaghetti sauce made me realize that my self-criticism was affecting my confidence and enjoyment of cooking, leading me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In our sessions, we will work on challenging your negative thoughts and beliefs about cooking by using the Decatastrophizing technique. We will identify and examine the catastrophic thoughts you have when cooking, such as \"I will mess up,\" and explore evidence to support or contradict these beliefs. Together, we will develop more balanced and realistic perspectives to help you build confidence in the kitchen. Additionally, we will practice mindfulness techniques to help you stay present and focused while cooking, reducing anxiety and self-criticism. Through this process, we aim to help you enjoy cooking and feel more confident in your abilities.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨，布莱克，很高兴见到你。你今天感觉怎么样？"
+        },
+        {
+            "role": "client",
+            "message": "真正让我困扰的是厨房。每次我尝试做饭时，我就无法摆脱我会搞砸的感觉。"
+        },
+        {
+            "role": "counselor",
+            "message": "这听起来很困扰。你已经认识到自我批评对你的信心和厨艺的影响，这是很重要的第一步。在我们的接下来的会话中，我们将一起探讨这些消极想法，并尝试用Decatastrophizing技术来挑战它们。你觉得这个方法对你有帮助吗？"
+        },
+        {
+            "role": "client",
+            "message": "我希望这个方法能够帮到我，但是我也感觉自己可能会觉得很难接受。"
+        },
+        {
+            "role": "counselor",
+            "message": "没问题，接受新的方法和思维模式可能会让人感到困难，但是我会在这个过程中一直支持你。我们可以一步步地慢慢来，一起探索更加平衡和现实的观点。你愿意试试看吗？"
+        },
+        {
+            "role": "client",
+            "message": "我会努力尝试的，尽管我觉得这可能会是个挑战。"
+        },
+        {
+            "role": "counselor",
+            "message": "很好，我很欣赏你的勇气和决心去面对这个挑战。我们可以慢慢地一起来，不要给自己太大的压力。重要的是，我们一起努力，一步一步地改变你的思维方式。你可以相信自己，我们会一起走过这个过程。现在，让我们先尝试用Decatastrophizing技术来挑战一些你在厨房里的消极想法，好吗？"
+        },
+        {
+            "role": "client",
+            "message": "我会尽力跟上这个过程，尽管我觉得自己可能会遇到一些困难。"
+        },
+        {
+            "role": "counselor",
+            "message": "没问题，你不必完美地掌握这个过程，重要的是你愿意尝试。我们可以一起逐步解决这些困难，我会一直在你身边支持你。让我们一起开始挑战那些消极想法，看看是否能够找到更平衡和现实的观点。你准备好了吗？"
+        },
+        {
+            "role": "client",
+            "message": "我会尽力跟上这个过程，尽管我觉得自己可能会遇到一些困难。 "
+        }
+    ]
+}

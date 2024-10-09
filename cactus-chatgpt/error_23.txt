@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/workspace/cactus/src/inference.py", line 378, in run_therapy_session
+    session_data = therapy_session.run_session()
+  File "/workspace/cactus/src/inference.py", line 350, in run_session
+    self._initialize_session()
+  File "/workspace/cactus/src/inference.py", line 329, in _initialize_session
+    self.counselor_agent.set_cbt(example_cbt['init_history_client'])
+  File "/workspace/cactus/src/inference.py", line 213, in set_cbt
+    self.cbt_technique, self.cbt_plan = cbt_agent.generate(history)
+  File "/workspace/cactus/src/inference.py", line 141, in generate
+    response = self.llm.generate(prompt)
+  File "/workspace/cactus/src/inference.py", line 35, in generate
+    response = self.llm.invoke(prompt)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_core/language_models/chat_models.py", line 284, in invoke
+    self.generate_prompt(
+  File "/usr/local/lib/python3.10/dist-packages/langchain_core/language_models/chat_models.py", line 784, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/langchain_core/language_models/chat_models.py", line 641, in generate
+    raise e
+  File "/usr/local/lib/python3.10/dist-packages/langchain_core/language_models/chat_models.py", line 631, in generate
+    self._generate_with_cache(
+  File "/usr/local/lib/python3.10/dist-packages/langchain_core/language_models/chat_models.py", line 850, in _generate_with_cache
+    result = self._generate(
+  File "/usr/local/lib/python3.10/dist-packages/langchain_community/chat_models/openai.py", line 475, in _generate
+    response = self.completion_with_retry(
+  File "/usr/local/lib/python3.10/dist-packages/langchain_community/chat_models/openai.py", line 386, in completion_with_retry
+    return self.client.create(**kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/openai/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/openai/resources/chat/completions.py", line 742, in create
+    return self._post(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1270, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 947, in request
+    return self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1036, in _request
+    return self._retry_request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1085, in _retry_request
+    return self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1036, in _request
+    return self._retry_request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1085, in _retry_request
+    return self._request(
+  File "/usr/local/lib/python3.10/dist-packages/openai/_base_client.py", line 1051, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-3.5-turbo in organization org-qQc7bYbmEFnCQERxPSoNcqqI on tokens per min (TPM): Limit 200000, Used 199362, Requested 813. Please try again in 52ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}

@@ -1,0 +1,169 @@
+{
+    "example": {
+        "AI_client": {
+            "intake_form": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA\n\n2. Presenting Problem\nI have recently started feeling like being good at science makes me a geek and that I am perceived as anti-social because of it.\nThese feelings started when I began high school, particularly in the past few months.\nI believe the cause of these thoughts is the stereotypes associated with being good at science.\nThe problem has progressed as I have been avoiding social situations to not be labeled as a geek.\nI experience these thoughts mainly at school, especially in science-related classes or discussions.\nI have tried to engage in more social activities to counter these thoughts but have found it challenging.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological issues.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My academic performance in science is excellent, but my social interactions have been affected by these thoughts.\nInterpersonal relationships: I have started avoiding social interactions with classmates and friends.\nDaily life: My thoughts about being labeled as a geek have caused me to isolate myself and affected my self-esteem.\n\n6. Social Support System\nI have parents and a sibling whom I can talk to, but they may not fully understand the intensity of my concerns surrounding these thoughts.",
+            "attitude": "neutral",
+            "attitude_instruction": "Clients display a mix of both positive and negative characteristics. They might show compliance and willingness to follow instructions at times, but also exhibit moments of defensiveness or skepticism. These clients may provide useful information and participate actively in some discussions, while in other instances, they might shift topics or show disconnection. Their feedback can vary, with periods of constructive engagement interspersed with sarcastic remarks or expressions of self-doubt. This blend of reactions indicates a fluctuating commitment to therapy, with the client balancing between optimism for change and resistance to the therapeutic process.",
+            "dialogue_history_init": "Counselor: Hi Nick, welcome. How are you feeling today?\nClient: Hey. I'm okay, I guess. A bit nervous about this session, to be honest.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA",
+                "reason_counseling": "I decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.",
+                "dialogue_history_init": "Counselor: Hi Nick, welcome. How are you feeling today?\nClient: Hey. I'm okay, I guess. A bit nervous about this session, to be honest.",
+                "init_history_counselor": "Hi Nick, welcome. How are you feeling today?",
+                "init_history_client": "I'm feeling a bit overwhelmed right now. I've been avoiding social situations because I don't want to be labeled as a geek, and it's starting to take a toll on me."
+            },
+            "Response": {
+                "client_information": "Name:\nNick Anderson\nAge:\n23\nGender:\nmale\nOccupation: Student\nEducation: High School Student (10th Grade, Science concentration)\nMarital Status: Single\nFamily Details: Lives in Florida, USA",
+                "reason_counseling": "I decided to seek counseling because these thoughts are impacting my self-esteem and social interactions negatively.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "1. Identify and challenge negative thoughts: Help Nick identify the negative thoughts he has about being labeled as a geek and how they are impacting his self-esteem and social interactions.\n2. Gather evidence: Encourage Nick to gather evidence that challenges his negative thoughts. This could involve reflecting on past social situations where he was accepted and valued for who he is.\n3. Reality testing: Help Nick test the validity of his negative beliefs by encouraging him to engage in social situations and observe the actual reactions of others.\n4. Behavior Experiment: Encourage Nick to gradually expose himself to social situations where he fears being labeled as a geek. Have him observe and record the actual responses he receives.\n5. Challenge assumptions: Help Nick challenge his assumptions about how being labeled as a geek will impact his self-esteem and social interactions. Encourage him to consider alternative perspectives and possibilities.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "Hi Nick, welcome. How are you feeling today?"
+        },
+        {
+            "role": "client",
+            "message": "I'm feeling a bit overwhelmed right now. I've been avoiding social situations because I don't want to be labeled as a geek, and it's starting to take a toll on me."
+        },
+        {
+            "role": "counselor",
+            "message": "It's understandable to feel overwhelmed when negative thoughts impact your self-esteem and social interactions. Let's work together to identify and challenge those thoughts. Can you share with me some examples of the negative thoughts you have been experiencing about being labeled as a geek?"
+        },
+        {
+            "role": "client",
+            "message": "Lately, I keep thinking that excelling in science automatically makes me a geek, and that perception is making me withdraw from social situations."
+        },
+        {
+            "role": "counselor",
+            "message": "It sounds like you're struggling with the idea that excelling in science is automatically linked to being labeled as a geek. Let's work on challenging that belief together. Have you ever had any positive social interactions where your interest in science was accepted and valued by others?"
+        },
+        {
+            "role": "client",
+            "message": "I remember a few instances where my classmates appreciated my knowledge in science during group projects, but those moments are overshadowed by my fear of being labeled negatively."
+        },
+        {
+            "role": "counselor",
+            "message": "It's great to hear that you have had positive interactions where your knowledge in science was valued. Let's focus on gathering more evidence to challenge those negative thoughts. How about we start by gradually exposing yourself to social situations and observing the actual reactions of others? This way, you can test the validity of your beliefs and see that not everyone will label you negatively."
+        },
+        {
+            "role": "client",
+            "message": "I think gradually exposing myself to social situations could be a good way to challenge my negative beliefs. I'm willing to give it a try and see if my perceptions change."
+        },
+        {
+            "role": "counselor",
+            "message": "That's a great first step, Nick. By engaging in social situations and observing the actual reactions of others, you may start to see that your fear of being labeled as a geek is not as prominent as you think. Remember, we're here to support you every step of the way as you work on challenging those negative beliefs."
+        },
+        {
+            "role": "client",
+            "message": "I appreciate the support and guidance you're providing. It helps me feel more hopeful about overcoming these negative thoughts and perceptions."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you're feeling hopeful about challenging these negative thoughts, Nick. Remember, progress takes time, and it's okay to take small steps towards change. We can continue to work together on gathering evidence, reality testing, and challenging assumptions to help you build confidence in social situations. Is there anything specific you'd like to focus on during our next session?"
+        },
+        {
+            "role": "client",
+            "message": "I think in our next session, I'd like to explore ways to continue building my confidence in social situations and maybe work on addressing any underlying insecurities that contribute to my fear of being labeled negatively."
+        },
+        {
+            "role": "counselor",
+            "message": "That sounds like a great plan, Nick. Exploring ways to build confidence in social situations and addressing underlying insecurities will be important steps in challenging those negative beliefs. I look forward to continuing our work together in the next session. Remember, you're not alone in this journey, and I'm here to support you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "Thank you for the continuous support and guidance. I believe exploring ways to build confidence in social situations and addressing underlying insecurities will be crucial for me. I'm looking forward to our next session."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you're looking forward to our next session, Nick. Remember, the journey towards building confidence and challenging negative beliefs is a process, and we will work together at a pace that is comfortable for you. In the meantime, continue to reflect on your positive experiences and gather evidence to challenge those negative thoughts. You're making great progress, and I'm here to support you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "I understand that progress takes time, and I'm willing to take those small steps towards change. I'll continue reflecting on my positive experiences and gathering evidence to challenge my negative thoughts. Thank you for your support and guidance."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Nick. It's great to see your commitment to challenging those negative thoughts and making progress towards building confidence in social situations. Remember, it's all about taking those small steps and being patient with yourself. I'm proud of the progress you've made so far, and I'm here to support you every step of the way. Keep up the good work, and I look forward to our next session."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to realize that challenging my negative beliefs will require patience and perseverance. It's comforting to know that I have your support every step of the way."
+        },
+        {
+            "role": "counselor",
+            "message": "Absolutely, Nick. Challenging negative beliefs can be a challenging process, but with your dedication and willingness to take those small steps, I have no doubt that you will make great progress. Remember, I'm here to support you through this journey, and together we will work towards building your confidence and addressing those underlying insecurities. Keep up the great work, and I look forward to our next session."
+        },
+        {
+            "role": "client",
+            "message": "I'm grateful for the progress we've made so far in challenging my negative beliefs. Your support has been invaluable in this journey."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm glad to hear that you're feeling grateful for the progress we've made, Nick. Your dedication and willingness to challenge those negative beliefs are truly commendable. Remember, you're not alone in this journey, and I'm here to support you every step of the way. Keep up the great work, and I look forward to our next session where we can continue working on building your confidence and addressing those underlying insecurities."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to see the value in challenging my negative beliefs and the importance of being patient with myself. Your support means a lot to me on this journey."
+        },
+        {
+            "role": "counselor",
+            "message": "It's wonderful to hear that you're beginning to see the value in challenging those negative beliefs, Nick. Being patient with yourself and recognizing the progress you're making are important steps in this journey. Your dedication and willingness to work on building your confidence are truly inspiring. I'm here to support you every step of the way, and I look forward to our next session where we can continue this important work together. Keep up the great work!"
+        },
+        {
+            "role": "client",
+            "message": "I'm truly grateful for the progress we've made in challenging my negative beliefs. Your support has been invaluable on this journey."
+        },
+        {
+            "role": "counselor",
+            "message": "I'm so glad to hear that you're feeling grateful for the progress we've made, Nick. Your dedication to challenging those negative beliefs is truly commendable, and I'm honored to be able to support you on this journey. Remember, we will continue to work together to build your confidence and address those underlying insecurities. Keep up the great work, and I look forward to our next session where we can continue this important work together."
+        },
+        {
+            "role": "client",
+            "message": "I'm beginning to see the positive impact of challenging my negative beliefs and the importance of being patient with myself on this journey."
+        },
+        {
+            "role": "counselor",
+            "message": "That's great to hear, Nick. Recognizing the positive impact of challenging your negative beliefs and being patient with yourself are important steps in this journey. Your progress is truly inspiring, and I'm here to support you every step of the way. Remember, we will continue to work together to build your confidence and address those underlying insecurities. Keep up the great work, and I look forward to our next session where we can continue this important work together."
+        },
+        {
+            "role": "client",
+            "message": "I'm starting to understand that progress takes time, and I'm willing to be patient with myself as I challenge my negative beliefs. Your support means a lot to me on this journey."
+        },
+        {
+            "role": "counselor",
+            "message": "It's great to hear that you're starting to understand the importance of being patient with yourself, Nick. Progress definitely takes time, and your willingness to challenge those negative beliefs is a big step forward. Remember, I'm here to support you every step of the way as we work together to build your confidence and address those underlying insecurities. Keep up the great work, and I look forward to our next session where we can continue this important work together. Your dedication is truly inspiring."
+        },
+        {
+            "role": "client",
+            "message": "I'm realizing that challenging my negative beliefs will require a lot of patience and perseverance. I'm grateful to have your support every step of the way."
+        },
+        {
+            "role": "counselor",
+            "message": "You're absolutely right, Nick. Challenging negative beliefs does require patience and perseverance, but with your dedication and willingness to make progress, I have no doubt that you'll continue to grow and overcome these challenges. Remember, I'm here to support you throughout this journey, and I'm proud of the progress you've already made. Keep up the great work, and let's continue working together to build your confidence and address those underlying insecurities in our next session. Your commitment is truly admirable."
+        },
+        {
+            "role": "client",
+            "message": "I'm realizing that challenging my negative beliefs will require a lot of patience and perseverance. I'm grateful to have your support every step of the way."
+        },
+        {
+            "role": "counselor",
+            "message": "It's wonderful to see your realization of the patience and perseverance needed to challenge those negative beliefs, Nick. Your willingness to work through this process is truly commendable, and I'm honored to be able to support you on this journey. Remember, progress takes time, and it's okay to take small steps towards change. I'm here to support you every step of the way as we continue to work on building your confidence and addressing those underlying insecurities. Keep up the great work, and I look forward to our next session where we can continue this important work together. Your dedication is truly inspiring."
+        },
+        {
+            "role": "client",
+            "message": "I'm grateful for the progress we've made so far in challenging my negative beliefs. Your support has been invaluable in this journey. "
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "example": {
+        "idx": 404,
+        "AI_client": {
+            "intake_form": "Name:\nAndrew Wilson\nAge:\n36\nGender:\nmale\nOccupation: Chef\nEducation: Culinary School Graduate\nMarital Status: Single\nFamily Details: Mother passed away during childhood, no siblings\n\n2. Presenting Problem\nI have a strong passion for cooking, but I constantly feel like I am the worst cook ever, which leads to self-doubt and discouragement.\nThese feelings of inadequacy started during my early culinary training but have intensified in the past year.\nI attribute the cause to my perfectionist tendencies and the high standards I set for myself.\nThe problem has worsened over time, especially after receiving some negative feedback from a cooking competition.\nI experience these feelings whenever I receive compliments or awards for my cooking.\nI have tried to improve my skills and seek validation from others, but it only temporarily alleviates my self-doubt.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling because these feelings of self-doubt are hindering my ability to enjoy cooking and pursue my culinary dreams.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My passion for cooking has been affected by my self-doubt, causing a decline in my job performance.\nInterpersonal relationships: My relationships with colleagues have been impacted by my perfectionist tendencies and self-doubt.\nDaily life: My self-esteem issues have affected my sleep patterns and overall well-being.\n\n6. Social Support System\nI do not have a strong social support system to discuss my feelings of self-doubt with, and I often feel isolated in dealing with these emotions.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hello, Andrew. It’s nice to meet you. How are you feeling today?\nClient: I appreciate you asking. I’ve been feeling a lot of self-doubt lately, especially with my cooking. Even when I get positive feedback, it doesn’t seem to help. I’m just not sure how to move past this.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nAndrew Wilson\nAge:\n36\nGender:\nmale\nOccupation: Chef\nEducation: Culinary School Graduate\nMarital Status: Single\nFamily Details: Mother passed away during childhood, no siblings",
+                "reason_counseling": "I decided to seek counseling because these feelings of self-doubt are hindering my ability to enjoy cooking and pursue my culinary dreams.",
+                "dialogue_history_init": "咨询师: 你好，安德鲁。很高兴见到你。你今天感觉怎么样？\n来访者: 我很感激你的问候。最近我感到很多自我怀疑，尤其是在烹饪方面。即使收到积极的反馈，也似乎无济于事。我不确定该如何克服这种困境。",
+                "init_history_counselor": "你好，安德鲁。很高兴见到你。你今天感觉怎么样？",
+                "init_history_client": "我很感激你的问候。最近我感到很多自我怀疑，尤其是在烹饪方面。即使收到积极的反馈，也似乎无济于事。我不确定该如何克服这种困境。"
+            },
+            "Response": {
+                "client_information": "Name:\nAndrew Wilson\nAge:\n36\nGender:\nmale\nOccupation: Chef\nEducation: Culinary School Graduate\nMarital Status: Single\nFamily Details: Mother passed away during childhood, no siblings",
+                "reason_counseling": "I decided to seek counseling because these feelings of self-doubt are hindering my ability to enjoy cooking and pursue my culinary dreams.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Efficiency Evaluation",
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "1. Identify and challenge negative thoughts: Help Andrew identify his negative thoughts related to his cooking abilities and challenge them by examining evidence that supports or contradicts these thoughts.\n2. Reframe catastrophic thoughts: Guide Andrew in reframing his catastrophic thoughts into more realistic and balanced perspectives. Help him see that making mistakes or receiving feedback does not define his worth as a chef.\n3. Behavior Experiment: Encourage Andrew to engage in cooking activities that he enjoys, despite his self-doubt. Have him track his thoughts and feelings throughout the process to see if they align with his initial negative beliefs.\n4. Homework assignments: Assign Andrew tasks to practice positive self-talk and self-compassion. Encourage him to keep a journal of his achievements and positive feedback received in his culinary pursuits.\n5. Continual support and reinforcement: Provide ongoing support and encouragement for Andrew as he works on overcoming his self-doubt. Celebrate his successes and help him navigate setbacks along the way.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "你好，安德鲁。很高兴见到你。你今天感觉怎么样？"
+        },
+        {
+            "role": "client",
+            "message": "我很感激你的问候。最近我感到很多自我怀疑，尤其是在烹饪方面。即使收到积极的反馈，也似乎无济于事。我不确定该如何克服这种困境。"
+        },
+        {
+            "role": "counselor",
+            "message": "了解，安德鲁。首先，让我们一起来识别一下你的负面想法。你能告诉我你认为自己在烹饪方面存在哪些问题吗？让我们看看是否有证据支持或反驳这些想法。这样我们可以一起挑战并改变它们。你认为呢？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得自己在烹饪方面存在问题是因为我总是觉得自己做得不够好，无论别人怎么夸奖我。这种想法让我觉得自己永远无法达到我设定的高标准。"
+        }
+    ]
+}

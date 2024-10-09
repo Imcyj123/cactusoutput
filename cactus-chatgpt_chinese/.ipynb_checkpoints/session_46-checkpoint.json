@@ -1,0 +1,59 @@
+{
+    "example": {
+        "idx": 45,
+        "AI_client": {
+            "intake_form": "Name:\nGregory Johnson\nAge:\n52\nGender:\nmale\nOccupation: Aquarium Builder\nEducation: Vocational Training in Aquarium Construction\nMarital Status: Married\nFamily Details: Wife who is legally deaf, parents both over the age of 100\n\n2. Presenting Problem\nI feel like a failure because I have not been able to find a cure for my wife's deafness, which has led to feelings of guilt and inadequacy.\nThese feelings of failure started when I realized I couldn't change my wife's condition despite trying various treatments.\nThe stress level was high when my wife's deafness was diagnosed, and I felt responsible for not being able to \"fix\" the situation.\nThe problem has progressed over time, especially as I see my brother-in-law's success in running a major Hollywood studio, which further intensifies my feelings of failure.\nI experience these feelings daily, especially when my wife faces challenges due to her deafness.\nI have researched extensively, consulted multiple doctors, and tried alternative therapies to find a cure for my wife's deafness.\n\n3. Reason for Seeking Counseling\nI decided to seek counseling because the burden of guilt and feelings of failure have started affecting my mental health and overall well-being. I realize I need support to cope with these emotions.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Occupational functioning level: My job performance has been impacted due to the emotional distress caused by my wife's condition.\nInterpersonal relationships: My relationship with my wife has been strained as I constantly blame myself for not being able to find a cure for her.\nDaily life: My emotional state has affected my sleep patterns and overall self-care.\n\n6. Social Support System\nI have a supportive brother-in-law, but I have not shared my feelings of failure with him.",
+            "attitude": "positive",
+            "attitude_instruction": "Clients demonstrate a high level of engagement and cooperation with the therapeutic process. They should actively confirm their understanding of the counselor's instructions, ask for clarifications when needed, and willingly provide detailed information about their thoughts, feelings, and behaviors. These clients make reasonable requests for additional support or resources, and they extend the conversation by building on the counselor's suggestions with their own insights or experiences. They reformulate their thoughts in a constructive manner, reflecting on their progress and expressing a hopeful outlook towards the therapeutic outcomes. Overall, their demeanor is open, appreciative, and proactive in seeking improvement.",
+            "dialogue_history_init": "Counselor: Hello Gregory, I’m glad you’ve decided to seek counseling. How are you feeling today?\nClient: I feel like I'm stuck in this cycle of guilt and inadequacy. No matter what I do or how hard I try, I can't seem to shake the feeling that I've failed my wife. It's starting to affect my work and my relationship with her.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nGregory Johnson\nAge:\n52\nGender:\nmale\nOccupation: Aquarium Builder\nEducation: Vocational Training in Aquarium Construction\nMarital Status: Married\nFamily Details: Wife who is legally deaf, parents both over the age of 100",
+                "reason_counseling": "I decided to seek counseling because the burden of guilt and feelings of failure have started affecting my mental health and overall well-being. I realize I need support to cope with these emotions.",
+                "dialogue_history_init": "咨询师: 你好格雷戈里，很高兴你决定寻求咨询。你今天感觉怎么样？\n来访者: 我觉得自己陷入了一种愧疚和无助的循环中。无论我做什么，无论我多么努力，我似乎无法摆脱对自己辜负了妻子的感觉。这开始影响我的工作和与她的关系。",
+                "init_history_counselor": "你好格雷戈里，很高兴你决定寻求咨询。你今天感觉怎么样？",
+                "init_history_client": "我觉得自己陷入了一种愧疚和无助的循环中。无论我做什么，无论我多么努力，我似乎无法摆脱对自己辜负了妻子的感觉。这开始影响我的工作和与她的关系。"
+            },
+            "Response": {
+                "client_information": "Name:\nGregory Johnson\nAge:\n52\nGender:\nmale\nOccupation: Aquarium Builder\nEducation: Vocational Training in Aquarium Construction\nMarital Status: Married\nFamily Details: Wife who is legally deaf, parents both over the age of 100",
+                "reason_counseling": "I decided to seek counseling because the burden of guilt and feelings of failure have started affecting my mental health and overall well-being. I realize I need support to cope with these emotions.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Pie Chart Technique",
+            "Evidence-Based Questioning"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In our sessions, we will work on challenging and changing the catastrophic thoughts and beliefs that are contributing to your feelings of guilt and failure. We will identify these negative thought patterns and explore alternative, more realistic perspectives. Through the process of decatastrophizing, we will work on reframing your thoughts and beliefs to reduce the intensity of your emotions and improve your overall well-being. Additionally, we will utilize evidence-based questioning to challenge the validity of these catastrophic thoughts and replace them with more balanced and rational perspectives. This technique will help you develop coping strategies to manage the burden of guilt and feelings of failure, ultimately improving your mental health and relationship with your wife.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "你好格雷戈里，很高兴你决定寻求咨询。你今天感觉怎么样？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得自己陷入了一种愧疚和无助的循环中。无论我做什么，无论我多么努力，我似乎无法摆脱对自己辜负了妻子的感觉。这开始影响我的工作和与她的关系。"
+        },
+        {
+            "role": "counselor",
+            "message": "我听到你描述的感受。这种愧疚和无助的感觉对你的生活造成了很大影响。我们将一起探索这些负面思维模式，挑战并改变它们，以减轻你的情绪压力。你认识到这些感受并主动寻求帮助是很重要的一步。接下来，我们将开始通过质疑和重新构建思维方式来改善你的心理健康和关系。你对这个过程有什么想法吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得这是一个很艰难的过程，但我也意识到这是我解决问题的第一步。我很希望能够找到一种解决方式，让我能更好地处理自己的情绪和关系。"
+        },
+        {
+            "role": "counselor",
+            "message": "你的决心和意愿是非常重要的，这将帮助你在这个过程中取得进展。我们会一步一步地探索并改变你的负面思维模式，同时学会更健康的处理方式。我会在你的旁边支持你，帮助你克服这些挑战。让我们一起努力，一起为更好的心理健康和关系而努力吧。"
+        },
+        {
+            "role": "client",
+            "message": "我相信在这个过程中，我将能够更好地理解自己的情绪和行为，找到更积极的方式来处理这种愧疚和无助的感觉。希望通过这个过程，我能够重建我的内心世界并改善与妻子的关系。"
+        }
+    ]
+}

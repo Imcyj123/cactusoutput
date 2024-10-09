@@ -1,0 +1,99 @@
+{
+    "example": {
+        "idx": 392,
+        "AI_client": {
+            "intake_form": "Name:\nKyle Kennedy\nAge:\n16\nGender:\nmale\nOccupation: IT Specialist\nEducation: Master's Degree in Computer Science\nMarital Status: Single\nFamily Details: Parents and a younger brother\n\n2. Presenting Problem\nI have a fear of rejection when it comes to dating, assuming that the person I ask out will say no.\nThis fear of rejection has been present for the past few years, especially after a previous rejection experience.\nI believe the fear of rejection stems from past rejection experiences and low self-esteem.\nThe problem has intensified over the years, affecting my confidence in approaching potential partners.\nI experience these feelings whenever I consider asking someone out or engaging in romantic pursuits.\nTo cope with this fear, I have avoided asking anyone out and have hesitated to pursue romantic relationships.\n\n3. Reason for Seeking Counseling\nI realized that this fear of rejection was holding me back from forming meaningful relationships and affecting my overall happiness, leading me to seek counseling.\n\n4. Past History (including medical history)\nI have experienced similar fear of rejection in past dating experiences, leading to avoidance of potential romantic relationships.\nI have not received treatment or counseling for psychological problems before.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My job performance has not been significantly affected by this fear.\nInterpersonal relationships: My fear of rejection has hindered my ability to form romantic relationships and deep connections with others.\nDaily life: My fear of rejection has caused anxiety and stress in social situations.\n\n6. Social Support System\nI have a supportive family and a close friend I can talk to about personal issues, but I have not shared my fear of rejection with them.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hi Kyle, it's nice to meet you. What brings you in today?\nClient: I always assume they will say no, and it just feels pointless to even try.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nKyle Kennedy\nAge:\n16\nGender:\nmale\nOccupation: IT Specialist\nEducation: Master's Degree in Computer Science\nMarital Status: Single\nFamily Details: Parents and a younger brother",
+                "reason_counseling": "I realized that this fear of rejection was holding me back from forming meaningful relationships and affecting my overall happiness, leading me to seek counseling.",
+                "dialogue_history_init": "咨询师: 嗨，凯尔，很高兴认识你。你今天来有什么事？\n来访者: 我总是觉得他们会说不，甚至连尝试都觉得没意义。",
+                "init_history_counselor": "嗨，凯尔，很高兴认识你。你今天来有什么事？",
+                "init_history_client": "我总是觉得他们会说不，甚至连尝试都觉得没意义。"
+            },
+            "Response": {
+                "client_information": "Name:\nKyle Kennedy\nAge:\n16\nGender:\nmale\nOccupation: IT Specialist\nEducation: Master's Degree in Computer Science\nMarital Status: Single\nFamily Details: Parents and a younger brother",
+                "reason_counseling": "I realized that this fear of rejection was holding me back from forming meaningful relationships and affecting my overall happiness, leading me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Evidence-Based Questioning",
+            "Behavior Experiment"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "In order to address Kyle's fear of rejection, we will utilize the Decatastrophizing technique. This technique involves identifying and challenging irrational thoughts related to rejection. During our sessions, we will work on identifying Kyle's specific fears and beliefs about rejection, and then examining evidence that supports or contradicts those beliefs. We will also explore alternative, more balanced perspectives on rejection and practice reframing negative thoughts. Additionally, we will use behavior experiments to gradually expose Kyle to situations that trigger his fear of rejection, helping him to build confidence and develop more adaptive coping strategies. Through this process, Kyle will learn to manage his fear of rejection and improve his ability to form meaningful relationships.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨，凯尔，很高兴认识你。你今天来有什么事？"
+        },
+        {
+            "role": "client",
+            "message": "我总是觉得他们会说不，甚至连尝试都觉得没意义。"
+        },
+        {
+            "role": "counselor",
+            "message": "这种担忧是很常见的，凯尔。我们可以借助Decatastrophizing技术来帮助你挑战这些消极的想法。在接下来的会话中，我们会一起探索你对拒绝的具体恐惧和信念，然后一起查看支持或反驳这些信念的证据。我们还会尝试寻找更加平衡的观点，重新构建消极的想法。此外，我们会通过行为实验逐渐暴露你面对拒绝的恐惧，帮助你建立信心并发展更适应的应对策略。通过这个过程，你将学会管理恐惧并改善建立有意义关系的能力。你觉得这个方法对你有帮助吗？"
+        },
+        {
+            "role": "client",
+            "message": "我不确定这个方法能够真正改变我的想法和行为。"
+        },
+        {
+            "role": "counselor",
+            "message": "我完全理解你的担忧，凯尔。改变想法和行为需要时间和努力，但我相信通过这个过程，你会逐渐发现自己能够更好地应对拒绝的恐惧。我们会一步一步地引导你，让你逐渐适应新的思维方式和行为模式。如果你有任何疑问或担忧，都可以随时向我提出。我们一起努力，相信你会取得进步的。你觉得我们可以开始尝试一下这个方法吗？"
+        },
+        {
+            "role": "client",
+            "message": "我会尝试跟进这个方法，虽然我感觉还是有些困难。"
+        },
+        {
+            "role": "counselor",
+            "message": "非常好，凯尔。重要的是要有动力和愿意尝试。我们会一起慢慢来，逐步解决你的困难。如果在这个过程中你需要任何帮助或支持，记得随时告诉我。我们会一起努力，相信你会渐渐克服这个困难。现在，我们可以开始探讨一些具体的拒绝情境，然后一起分析和挑战你的消极想法。你准备好了吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得在面对这些情境时，我会变得很紧张，甚至有些不知所措。"
+        },
+        {
+            "role": "counselor",
+            "message": "这是很正常的，凯尔。面对自己的恐惧可能会让人感到不安和紧张。我们会一步一步地引导你，让你逐渐适应这些情境。你可以尝试通过深呼吸或放松技巧来帮助自己在紧张时保持冷静。我们会慢慢来，不会让你感到孤单或无助。如果你需要任何帮助或支持，随时告诉我。我们一起努力，相信你会逐渐克服这种不安感。你准备好尝试一下吗？"
+        },
+        {
+            "role": "client",
+            "message": "我希望我能够逐渐克服这种不安感，虽然我知道这可能需要一些时间和努力。"
+        },
+        {
+            "role": "counselor",
+            "message": "你有这样的心态很好，凯尔。逐渐克服不安感的过程可能会有挑战，但你已经展现了愿意努力和改变的态度。我们会慢慢来，逐步引导你面对这些情境。记得，你不是一个人在面对这一切，我们会一起努力。如果你有任何想法或感受想要分享，都可以随时和我说。我们一起朝着你更自信、更坚强的目标前进。你觉得现在是时候开始尝试了吗？"
+        },
+        {
+            "role": "client",
+            "message": "是的，我觉得现在是时候开始尝试了。我希望通过这个过程可以逐渐克服我的不安感。"
+        },
+        {
+            "role": "counselor",
+            "message": "非常好，凯尔。我们会一起努力，逐步引导你走出困扰你的恐惧。开始尝试是迈出的第一步，我相信你会逐渐发现自己有能力克服这种不安感。如果在实践中遇到任何困难或挑战，都不要犹豫，随时和我分享。我们一起前进，相信你会取得进步的。现在，让我们开始探索一些具体的情境，一起挑战你的消极想法。你准备好了吗？"
+        },
+        {
+            "role": "client",
+            "message": "我想我需要更多的支持和指导来克服这种不安感。"
+        },
+        {
+            "role": "counselor",
+            "message": "当然，凯尔。我会提供你所需要的支持和指导，确保你在这个过程中不会感到孤单或困惑。我们会一起慢慢来，逐步引导你走出困扰你的恐惧。如果你有任何疑问或困惑，随时告诉我，我们会一起解决。你已经迈出了第一步，相信你会逐渐克服这种不安感。现在，让我们一起开始探索具体的情境，一起挑战你的消极想法。你觉得我们可以开始尝试一下吗？"
+        },
+        {
+            "role": "client",
+            "message": "我觉得我需要更多的支持和指导来克服这种不安感。 "
+        }
+    ]
+}

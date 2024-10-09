@@ -1,0 +1,138 @@
+{
+    "example": {
+        "idx": 428,
+        "AI_client": {
+            "intake_form": "Name:\nKayla Anderson\nAge:\n25\nGender:\nfemale\nOccupation: Grocery Store Worker\nEducation: High School Diploma\nMarital Status: Single\nFamily Details: Lives with parents\n\n2. Presenting Problem\nI am struggling with the belief that I will never be able to move out of my parents' house on my current salary, leading to feelings of hopelessness and frustration.\nThis belief started when I began working at the grocery store three years ago.\nThe stress level was moderate when this belief first occurred, as I realized the cost of living on my own.\nOver time, this belief has become more intense, especially as I see friends and colleagues moving out and starting their own lives.\nI experience this feeling every time I receive my salary and try to budget for independent living.\nI have attempted to increase my working hours and cut expenses, but it still feels unattainable.\n\n3. Reason for Seeking Counseling\nThe acknowledgment that this belief is impacting my mental well-being and overall outlook on the future prompted me to seek counseling.\n\n4. Past History (including medical history)\nI have not experienced similar problems before.\nI have not received treatment or counseling for psychological problems in the past.\nI do not have any significant physical illnesses.\n\n5. Academic/occupational functioning level: My job performance at the grocery store has not been affected by this belief.\nInterpersonal relationships: My relationships with friends have been strained as I avoid social gatherings that involve discussions about moving out.\nDaily life: I have been feeling demotivated and stressed about my future plans.\n\n6. Social Support System\nI have a supportive group of friends whom I can discuss my concerns with, but they do not fully understand the extent of my worries about moving out.",
+            "attitude": "negative",
+            "attitude_instruction": "Clients displaying negative reactions may struggle with the therapeutic process, often showing signs of resistance or defensiveness. They might express confusion about the counselor's guidance, indicating difficulty in understanding or accepting the proposed strategies. These clients could defend their current behaviors or viewpoints, potentially shifting topics to avoid addressing the core issues. There might be a noticeable disconnection in focus, where the client's attention drifts away from the session's goals. Sarcastic responses and self-criticism or hopelessness are common, reflecting a pessimistic attitude towards their ability to change or benefit from therapy. These behaviors suggest an underlying frustration or lack of trust in the counseling process.",
+            "dialogue_history_init": "Counselor: Hi Kayla, welcome. I'm here to help you work through whatever's been on your mind. Where would you like to start our conversation today?\nClient: I guess we could start with how I'm feeling stuck and hopeless about ever being able to move out of my parents' house. It just seems impossible with my current salary.",
+            "dialogue_history": null
+        },
+        "AI_counselor": {
+            "CBT": {
+                "client_information": "Name:\nKayla Anderson\nAge:\n25\nGender:\nfemale\nOccupation: Grocery Store Worker\nEducation: High School Diploma\nMarital Status: Single\nFamily Details: Lives with parents",
+                "reason_counseling": "The acknowledgment that this belief is impacting my mental well-being and overall outlook on the future prompted me to seek counseling.",
+                "dialogue_history_init": "咨询师: 嗨凯拉，欢迎。我在这里帮助你处理你心里所想的事情。你想从哪里开始我们今天的对话呢？\n来访者: 我想我们可以先谈谈我感到被困住和绝望，觉得自己永远无法搬出父母的家。以我目前的工资，这似乎是不可能的。",
+                "init_history_counselor": "嗨凯拉，欢迎。我在这里帮助你处理你心里所想的事情。你想从哪里开始我们今天的对话呢？",
+                "init_history_client": "我想我们可以先谈谈我感到被困住和绝望，觉得自己永远无法搬出父母的家。以我目前的工资，这似乎是不可能的。"
+            },
+            "Response": {
+                "client_information": "Name:\nKayla Anderson\nAge:\n25\nGender:\nfemale\nOccupation: Grocery Store Worker\nEducation: High School Diploma\nMarital Status: Single\nFamily Details: Lives with parents",
+                "reason_counseling": "The acknowledgment that this belief is impacting my mental well-being and overall outlook on the future prompted me to seek counseling.",
+                "cbt_plan": null,
+                "dialogue_history": null
+            }
+        },
+        "ground_truth_CBT": [
+            "Problem-Solving Skills Training"
+        ]
+    },
+    "cbt_technique": "CBT technique:Decatastrophizing",
+    "cbt_plan": "1. Psychoeducation: Educate Kayla on the concept of catastrophizing and how it can impact her mental well-being.\n2. Identification: Help Kayla identify and challenge her catastrophic thoughts related to being stuck living with her parents forever.\n3. Reality Testing: Encourage Kayla to consider alternative perspectives and gather evidence to challenge the belief that she will never be able to move out.\n4. Behavioral Experiment: Suggest Kayla to take small steps towards independence, such as creating a budget or looking for potential roommates to move out.\n5. Homework: Assign Kayla to keep a thought record to track her catastrophic thoughts and the evidence that supports or challenges them.\n6. Follow-up: Regularly check in with Kayla to monitor progress, provide support, and adjust the treatment plan as needed.",
+    "history": [
+        {
+            "role": "counselor",
+            "message": "嗨凯拉，欢迎。我在这里帮助你处理你心里所想的事情。你想从哪里开始我们今天的对话呢？"
+        },
+        {
+            "role": "client",
+            "message": "我想我们可以先谈谈我感到被困住和绝望，觉得自己永远无法搬出父母的家。以我目前的工资，这似乎是不可能的。"
+        },
+        {
+            "role": "counselor",
+            "message": "明白了，凯拉。这种感觉听起来很困扰你，但我想和你分享一些关于“灾难化思维”的知识。这种思维模式可能会让我们看待事情变得更加消极和绝望。你听过这个概念吗？可能我们可以一起探讨一下它是如何影响你的心理健康和未来展望。"
+        },
+        {
+            "role": "client",
+            "message": "Yeah, I've heard of catastrophic thinking before. It's like always expecting the worst possible outcome in every situation, right? I guess I do tend to lean towards that kind of thinking when it comes to my future. It's hard to see things differently sometimes."
+        },
+        {
+            "role": "counselor",
+            "message": "It's great that you're already familiar with the concept of catastrophic thinking. It's definitely a common pattern that many people struggle with. As we continue our sessions, we can work on identifying those catastrophic thoughts and challenging them together. It's important to remember that there are alternative perspectives and possibilities out there, even if they may not seem obvious at first. How do you feel about starting to challenge some of those thoughts and exploring different ways of thinking about your future?"
+        },
+        {
+            "role": "client",
+            "message": "I'm willing to give it a try, but it's honestly hard to imagine things turning out differently at this point. I feel like I've been stuck in this negative mindset for so long that it's become almost automatic for me to expect the worst."
+        },
+        {
+            "role": "counselor",
+            "message": "It's completely understandable to feel that way, Kayla. It takes time and effort to change deep-rooted thought patterns, but it's definitely possible with some dedication and support. I'm here to help you through this process and guide you towards a more positive and hopeful outlook. Let's start by exploring some small steps you can take towards independence, like creating a budget or researching potential living arrangements. Remember, progress doesn't have to happen overnight, but every step in the right direction counts. How does that sound to you?"
+        },
+        {
+            "role": "client",
+            "message": "I appreciate your guidance and support in helping me challenge my negative thoughts. Taking small steps towards independence like creating a budget or researching living arrangements does seem like a good starting point. It's reassuring to know that progress doesn't have to happen all at once."
+        },
+        {
+            "role": "counselor",
+            "message": "Absolutely, Kayla. Remember, it's about taking those small steps in the right direction that will eventually lead to bigger changes. I'm here to support you every step of the way as we work towards a more positive and hopeful outlook. Keep in mind that challenging those negative thoughts and exploring new possibilities is a process, and it's completely normal to have ups and downs along the way. How about we start by setting some achievable goals for our next session to help you stay motivated and on track?"
+        },
+        {
+            "role": "client",
+            "message": "Setting achievable goals for our next session sounds like a good idea. It might help me stay focused and motivated to work towards a more positive outlook on my future. Thank you for your support in guiding me through this process."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Kayla. I'm glad to hear that setting achievable goals for our next session resonates with you. It's all about taking those small steps and staying committed to challenging those negative thoughts. Remember, progress is a journey, and I'm here to help you every step of the way. If you encounter any challenges or have any concerns before our next session, feel free to reach out to me. You're making great progress, and I believe in your ability to create a brighter future for yourself. Keep up the great work!"
+        },
+        {
+            "role": "client",
+            "message": "Thank you for believing in me and supporting me through this process. It means a lot to know that I have someone guiding me towards a brighter future. I'll do my best to stay committed and work on challenging those negative thoughts."
+        },
+        {
+            "role": "counselor",
+            "message": "I have no doubt that you will do your best, Kayla. Remember, you have the strength and resilience to overcome these challenges. I'm here to support you every step of the way. Keep up the great work, and I look forward to seeing the progress you make in our next session. Don't hesitate to reach out if you need any additional support or guidance. You're on the right path towards a more positive and hopeful future."
+        },
+        {
+            "role": "client",
+            "message": "Thank you for being there for me and providing the support I need to challenge my negative thoughts. Your belief in me gives me hope for a brighter future. I'll continue to work on staying committed and making progress towards a more positive outlook on my future."
+        },
+        {
+            "role": "counselor",
+            "message": "It's great to hear that you feel hopeful and motivated to work towards a more positive future, Kayla. Remember, you're not alone in this journey, and I'm here to support you every step of the way. Keep up the great work, and I look forward to our next session where we can continue exploring new possibilities and challenging those negative thoughts. You're making progress, and I'm proud of the effort you're putting in to create a brighter future for yourself. Keep moving forward, and remember that you have the strength and resilience to overcome any challenges that come your way."
+        },
+        {
+            "role": "client",
+            "message": "Thank you for your continuous support and encouragement. It's reassuring to know that I'm not alone in this journey towards a brighter future. I'll keep pushing forward and working on challenging those negative thoughts."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Kayla. It's important to remember that you have the strength and determination to overcome these challenges. I'm here to support you every step of the way. Keep up the great work, and I look forward to seeing the progress you make in our next session. Remember, you're on the right path towards a more positive and hopeful future. Don't hesitate to reach out if you need any additional support or guidance. You're doing amazing work, and I believe in your ability to create the future you deserve."
+        },
+        {
+            "role": "client",
+            "message": "Thank you for your unwavering support and belief in me. It truly means a lot to have someone guiding me towards a brighter future. I will continue to work on challenging those negative thoughts and striving for a more positive outlook on my future."
+        },
+        {
+            "role": "counselor",
+            "message": "It's wonderful to see your determination and commitment to challenging those negative thoughts, Kayla. Remember, progress may not always be linear, but every step you take is a step towards a brighter future. Keep focusing on those small, achievable goals we've set, and don't hesitate to reach out if you need any additional support. You're on the right path, and I have no doubt that you will continue to make great progress. Keep up the fantastic work!"
+        },
+        {
+            "role": "client",
+            "message": "Thank you for your continuous encouragement and support. It's reassuring to know that I have someone by my side guiding me towards a brighter future. I will keep working on challenging those negative thoughts and striving for a more positive outlook on my future."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Kayla. I'm here to support you every step of the way as you work towards a more positive outlook on your future. Remember, you have the strength and resilience to overcome these challenges. Keep up the great work, and I look forward to seeing the progress you make in our next session. Don't hesitate to reach out if you need any additional support or guidance. You're on the right path towards a brighter future."
+        },
+        {
+            "role": "client",
+            "message": "I appreciate your continuous encouragement and guidance. It's comforting to know that I have your support in challenging my negative thoughts and moving towards a more positive future. Thank you for being there for me throughout this process."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Kayla. Remember, you're not alone in this journey, and I'm here to support you every step of the way. Keep up the great work, and continue challenging those negative thoughts. You have the strength and determination to create the future you deserve. I'm proud of the progress you're making, and I look forward to our next session where we can continue working towards a brighter and more positive outlook on your future. Keep moving forward, and know that I believe in your ability to overcome any challenges that come your way."
+        },
+        {
+            "role": "client",
+            "message": "I'm grateful for your ongoing support and belief in me. It's comforting to have someone guiding me towards a brighter future by challenging my negative thoughts. Thank you for being there for me throughout this process."
+        },
+        {
+            "role": "counselor",
+            "message": "You're very welcome, Kayla. It's my pleasure to support you on this journey towards a more positive future. Remember, progress takes time and effort, but with your determination and our collaboration, I have no doubt that you will continue to make great strides. Keep up the fantastic work, and don't hesitate to reach out if you need any additional support or guidance. You're on the right path, and I'm here to help you every step of the way."
+        },
+        {
+            "role": "client",
+            "message": "I am truly grateful for your unwavering support and belief in me. It's reassuring to have someone guiding me towards a brighter future by challenging my negative thoughts. Thank you for being there for me throughout this process. "
+        }
+    ]
+}
